@@ -2,6 +2,7 @@ package com.example.papb_05_register
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
 import com.example.papb_05_register.MainActivity.Companion.EXTRA_USERNAME
 import com.example.papb_05_register.databinding.ActivityMain2Binding
 import com.example.papb_05_register.databinding.ActivityMainBinding
@@ -12,7 +13,8 @@ private lateinit var binding: ActivityMain2Binding
 
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_main2)
+    binding = ActivityMain2Binding.inflate(layoutInflater)
+    setContentView(binding.root)
 
 
     val username = intent.getStringExtra(EXTRA_USERNAME)

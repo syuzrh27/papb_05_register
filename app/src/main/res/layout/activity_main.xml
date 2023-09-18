@@ -33,12 +33,12 @@
         app:layout_constraintTop_toBottomOf="@+id/reg" />
 
     <TextView
-        android:id="@+id/fullname"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:fontFamily="@font/montserrat_semibold"
-        android:text="Usename"
+        android:text="Username"
         android:textSize="17dp"
         android:layout_marginTop="50dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fullname"
+        app:layout_constraintTop_toBottomOf="@+id/username"
         android:background="@drawable/bgtext"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
@@ -83,7 +83,7 @@
         android:layout_marginTop="15dp"/>
 
     <TextView
-        android:id="@+id/pass"
+        android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_semibold"
@@ -101,14 +101,14 @@
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pass"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
         android:background="@drawable/bgtext"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginTop="15dp"/>
 
     <TextView
-        android:id="@+id/conpass"
+        android:id="@+id/pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_semibold"
@@ -126,7 +126,7 @@
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/conpass"
+        app:layout_constraintTop_toBottomOf="@+id/pass"
         android:background="@drawable/bgtext"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
